@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigate Menu</title>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 10;
+                width: 100%;
+            }
+
+            li a{
+                float: left;
+            }
+
+            li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(a.active){
+                background-color: #fde352;
+            }
+
+            .active{
+                background-color: #fde352;
+            }
+        </style>
+        <ul>
+            <li><a class="active" href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Python</a></li>
+        </ul>
+    </head>
+</html>

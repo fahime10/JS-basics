@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 300px;
+                background-color: #eeeeee;
+            }
+
+            li a{
+                display: block;
+                color: #000000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+            li a.active{
+                background-color: #075272;
+                color: white;
+            }
+
+            li a:hover:not(.active){
+                background-color: #59c9f9;
+                color: white;
+            }
+        </style>
+        <ul>
+            <li><a class="active" href="#">Books</a></li>
+            <li><a href="#">Easy Learning Javascript</a></li>
+            <li><a href="#">Easy Learning Java</a></li>
+            <li><a href="#">Easy Learning Python 3</a></li>
+        </ul>
+    </head>
+</html>
